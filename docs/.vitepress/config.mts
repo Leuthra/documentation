@@ -1,5 +1,6 @@
-import { defineConfigWithTheme } from 'vitepress';
+import { PageData, defineConfigWithTheme, TransformPageContext } from 'vitepress';
 import vitepressHelper, { config } from '@huyikai/vitepress-helper';
+import { SEO } from './seo'
 
 const vitepressHelperConfig = {
   directory: 'docs',
@@ -9,6 +10,14 @@ const vitepressHelperConfig = {
 const vitepressConfig = {
   title: 'Dokumentasi Random Romi',
   description: 'Dokumentasi yang terstruktur, berawal dari catatan kecil.',
+  head: [[
+    'link',
+    {
+      rel: 'icon',
+      sizes: '32x32',
+      href: '/favicon.png'
+    }
+  ]],
   themeConfig: {
     siteTitle: "Dokumentasi Random Romi",
     search: {
@@ -25,6 +34,9 @@ const vitepressConfig = {
       message: '',
       copyright: 'Copyright © 2024'
     },
+  },
+  transformPageData: (pageData: PageData, _ctx: TransformPageContext) => {
+    SEO(pageData);
   }
 };
 

@@ -1,6 +1,10 @@
 ---
 layout: home
 
+titleTemplate: Documentation
+title: Romi Muharom
+description: Dokumentasi yang terstruktur, berawal dari catatan kecil.
+
 hero:
   name: "Dokumentasi Random Romi"
   tagline: "\"Dokumentasi yang terstruktur, berawal dari catatan kecil.\""
