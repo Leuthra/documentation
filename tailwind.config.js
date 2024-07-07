@@ -1,9 +1,12 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: [],
+module.exports = {
+  preflight: false,
+  content: ['docs/**/*.md', 'docs/.vitepress/theme/*.vue'],
+  darkMode: 'class',
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('daisyui')
+  ],
 }
-
