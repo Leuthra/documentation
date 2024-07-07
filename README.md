@@ -86,6 +86,3 @@ Terima kasih kepada semua yang telah membantu dan memberikan kontribusi untuk do
 ## Lisensi
 
 Repositori ini dilisensikan di bawah [MIT License](LICENSE).
-```
-
-Kalau ada tambahan nama atau entitas lain yang mau lo tambahin di bagian "Thanks to", kasih tahu aja ya!
