@@ -192,3 +192,17 @@ body {
 .VPFooter {
   border-top: 0 !important;
 }
+
+.VPButton.brand {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops)) !important;
+    --tw-gradient-from: #3b82f6 var(--tw-gradient-from-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-to: #a855f7 var(--tw-gradient-to-position);
+}
+
+.VPButton.brand:hover {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops)) !important;
+    --tw-gradient-to: #3b82f6 var(--tw-gradient-from-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-from: #a855f7 var(--tw-gradient-to-position);
+}
