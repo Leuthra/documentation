@@ -71,6 +71,12 @@ Untuk menambahkan konten baru, lo bisa buat file markdown baru di folder yang se
 
 Jangan lupa untuk menambahkan link ke file baru lo di `config.ts` supaya bisa diakses dari sidebar.
 
+### Pagespeed
+### Pagespeed
+Dalam proyek ini, kecepatan halaman telah dioptimalkan, namun ini bisa menjadi salah satu yang sangat bisa ditingkatkan lebih baik lagi.
+
+<img src="./docs/public/website.png" alt="website" width="500"/>
+
 ## Kontribusi
 
 Kalau lo punya ide atau perbaikan untuk dokumentasi ini, jangan ragu buat kontribusi. Lo bisa fork repositori ini, buat perubahan di branch lo, dan kirim pull request.
