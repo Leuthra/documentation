@@ -1,0 +1,3 @@
+# Tutorial Pertama
+
+Ini adalah tutorial pertama gue. Langkah-langkah dalam tutorial ini meliputi ...
